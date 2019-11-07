@@ -37,7 +37,7 @@ def softmax(a):
 	y=exp_a / sum_exp_a
 
 	return y
-`
+
 
 network = init_network()
 x = np.array([1.0,0.5])
